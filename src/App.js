@@ -34,8 +34,7 @@ class App extends Component {
 
 function mapStateToProps(state) {
   return {
-    people: state.people.people,
-    loading: state.people.loading
+    state
   }
 }
 
