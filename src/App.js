@@ -7,6 +7,7 @@ import {getPeople} from './ducks/people';
 
 class App extends Component {
 
+
   render() {
 
     const people = this.props.people.map((person, i) => (
